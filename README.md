@@ -69,7 +69,7 @@ Add the dependency in the `build.gradle (Module: app)` :
 
 ```groovy
 dependencies {
-    compile 'com.github.alshell7:csml-android:{version-number}'
+    compile 'com.github.alshell7:csml-android:1.0.0-rc'
 }
 ```
 
