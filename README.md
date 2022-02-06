@@ -1,4 +1,4 @@
-![csml-android](https://socialify.git.ci/alshell7/csml-android/image?language=1&name=1&owner=1&theme=Light)
+![csml-android](./assets/csml-android.jpg)
 
 ## CSML Android SDK
 
@@ -48,7 +48,7 @@ The android library provided in this project is implemented using [Retrofit](htt
 
 To have a check on the library, download the demo [APK](https://github.com/alshell7/csml-android/blob/master/assets/app-debug.apk).
 
-<!-- <video src='./assets/demo.mp4' width='180'/> -->
+<video src='./assets/demo.mp4' width='180'/>
 
 [This](https://github.com/alshell7/csml-android/blob/master/assets/demo.csml) CSML Flow used for the demo.
 
