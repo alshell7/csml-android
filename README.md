@@ -48,10 +48,9 @@ The android library provided in this project is implemented using [Retrofit](htt
 
 To have a check on the library, download the demo [APK](https://github.com/alshell7/csml-android/blob/master/assets/app-debug.apk).
 
-<video src='./assets/demo.mp4' width='180'/>
+![demo](https://github.com/alshell7/csml-android/blob/master/assets/demo.gif)
 
 [This](https://github.com/alshell7/csml-android/blob/master/assets/demo.csml) CSML Flow used for the demo.
-
 
 ## :wrench: Installation
 
@@ -95,9 +94,10 @@ CSMLEngine csmlEngine = new CSMLEngine(String botPublicApiKey, String userId, Bo
 ```
 
 Where:
-  * botPublicApiKey - A public API Key for your API bot. - [Refer](https://docs.csml.dev/studio/api/authentication#public-endpoints-authentication)
-  * userId - A client-issued string for tracing requests. If none is provided, will be automatically generated.
-  * defaultBotResponseListener - Event trigger received on processing the CSML request.
+
+* botPublicApiKey - A public API Key for your API bot. - [Refer](https://docs.csml.dev/studio/api/authentication#public-endpoints-authentication)
+* userId - A client-issued string for tracing requests. If none is provided, will be automatically generated.
+* defaultBotResponseListener - Event trigger received on processing the CSML request.
 
 ### **Send Messages** to the bot :
 
@@ -118,6 +118,7 @@ csmlEngine.sendFlowTrigger("flowID", closeFlows /*true or false*/);
 ```
 
 ### **Receive Messages** from the bot :
+
 The event listener that is used by the `CSMLEngine` :
 
 ```java
